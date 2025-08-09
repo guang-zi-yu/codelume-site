@@ -482,7 +482,7 @@ onMounted(() => {
   position: relative;
   width: 1630px;
   overflow: hidden;
-  margin: -200px auto 0;
+  margin: -100px auto 0;
 
   @media (max-width: 1630px) {
     left: 50%;
