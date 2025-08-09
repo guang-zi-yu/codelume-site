@@ -4,6 +4,11 @@ export default defineConfig({
   title: "码镜",
   description: "MacOS 平台动态壁纸软件",
   lang: "zh-CN",
+  
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+  ],
+
   themeConfig: {
     logo: '/logo.svg',
     nav: [

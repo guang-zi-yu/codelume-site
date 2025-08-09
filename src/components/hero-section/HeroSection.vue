@@ -13,8 +13,15 @@ import HeroDiagram from './HeroDiagram.vue'
 
       <!-- CTA Buttons -->
       <div class="hero__actions">
-        <a href="/guide/" class="btn btn--primary">开始</a>
-        
+        <a href="/download" class="btn btn--primary">下载</a>
+        <a
+          href="https://github.com/guang-zi-yu/codelume-site"
+          target="_blank"
+          class="btn btn--outline"
+        >
+          <img src="/github.svg" alt="GitHub logo" width="20" height="20" />
+          GitHub
+        </a>
       </div>
     </div>
 

@@ -39,18 +39,17 @@ const inputLines: Ref<SvgNodeProps>[] = inputPaths.map((path) =>
 // Define the file set "combinations" that can be shown on the input side
 const inputFileSets = ref([
   [
-    { label: '.jsx' },
-    { label: '.sass' },
-    { label: '.svelte', color: '#ff8d67' },
+    { label: 'Xcode' },
+    { label: 'Swift' },
+    { label: 'SwiftUI', color: '#ff8d67' },
   ],
-  [{ label: '.tsx' }, { label: '.scss' }, { label: '.vue', color: '#40b782' }],
+  [{ label: 'MP4' }, { label: 'MOV' }, { label: 'AVI', color: '#40b782' }], 
   [
-    { label: '.js' },
-    { label: '.styl' },
-    { label: '.svelte', color: '#ff8d67' },
+    { label: 'AVFoundation' },
+    { label: 'SpriteKit' },
+    { label: 'SceneKit', color: '#ff8d67' },
   ],
-  [{ label: '.ts' }, { label: '.less' }, { label: '.vue', color: '#40b782' }],
-  [{ label: '.mts' }, { label: '.html' }, { label: '.json' }],
+  [{ label: 'Photoshop' }, { label: 'After Effects' }, { label: 'Blender', color: '#40b782' }],
 ])
 
 // Setup objects representing each output line's animation state
@@ -59,19 +58,13 @@ const outputLines: Ref[] = [
     position: 0,
     visible: false,
     labelVisible: false,
-    label: '.html',
+    label: 'Wallpaper',
   }),
   ref({
     position: 0,
     visible: false,
     labelVisible: false,
-    label: '.css',
-  }),
-  ref({
-    position: 0,
-    visible: false,
-    labelVisible: false,
-    label: '.js',
+    label: 'Screen Saver',
   }),
 ]
 
@@ -719,10 +712,11 @@ onMounted(() => {
     url('/noise.png'),
     radial-gradient(
       circle at right center,
-      rgb(86, 50, 119) 0%,
-      rgba(74, 55, 140, 1) 30%,
-      rgb(65, 114, 194) 55%,
-      rgba(50, 81, 115, 0.5) 100%
+        rgba(95, 157, 246, 0.1) 0%,
+        rgba(139, 88, 244, 0.3) 25%,
+        rgba(249, 83, 116, 0.8) 50%,
+        rgba(215, 85, 154, 0.3) 75%,
+        rgba(252, 179, 83, 0.1) 100%
     );
   mask-image: radial-gradient(
     ellipse 300% 30% at center center,
@@ -736,11 +730,11 @@ onMounted(() => {
       url('/noise.png'),
       radial-gradient(
         circle at right center,
-        rgba(75, 41, 105, 0.5) 0%,
-        rgb(86, 50, 119) 25%,
-        rgba(74, 55, 140, 1) 40%,
-        rgb(64, 102, 168) 65%,
-        rgba(50, 81, 115, 0.5) 100%
+        rgba(95, 157, 246, 0.1) 0%,
+        rgba(139, 88, 244, 0.3) 25%,
+        rgba(249, 83, 116, 0.8) 50%,
+        rgba(215, 85, 154, 0.3) 75%,
+        rgba(252, 179, 83, 0.1) 100%
       );
     mask-image: radial-gradient(
       ellipse 150% 30% at center center,
@@ -755,11 +749,11 @@ onMounted(() => {
       url('/noise.png'),
       radial-gradient(
         circle at right center,
-        rgba(75, 41, 105, 0.5) 0%,
-        rgb(86, 50, 119) 25%,
-        rgba(74, 55, 140, 1) 45%,
-        rgb(64, 102, 168) 65%,
-        rgba(50, 81, 115, 0.5) 100%
+        rgba(95, 157, 246, 0.1) 0%,
+        rgba(139, 88, 244, 0.3) 25%,
+        rgba(249, 83, 116, 0.8) 50%,
+        rgba(215, 85, 154, 0.3) 75%,
+        rgba(252, 179, 83, 0.1) 100%
       );
     mask-image: radial-gradient(
       ellipse 80% 40% at center center,
@@ -774,11 +768,11 @@ onMounted(() => {
       url('/noise.png'),
       radial-gradient(
         circle at right center,
-        rgba(75, 41, 105, 0.5) 0%,
-        rgb(86, 50, 119) 25%,
-        rgba(74, 55, 140, 1) 50%,
-        rgb(64, 102, 168) 70%,
-        rgba(50, 81, 115, 0.5) 100%
+        rgba(95, 157, 246, 0.1) 0%,
+        rgba(139, 88, 244, 0.3) 25%,
+        rgba(249, 83, 116, 0.8) 50%,
+        rgba(215, 85, 154, 0.3) 75%,
+        rgba(252, 179, 83, 0.1) 100%
       );
     mask-image: radial-gradient(
       ellipse 80% 40% at center center,
