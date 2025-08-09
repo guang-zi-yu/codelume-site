@@ -482,7 +482,7 @@ onMounted(() => {
   position: relative;
   width: 1630px;
   overflow: hidden;
-  margin: -100px auto 0;
+  margin: -200px auto 0;
 
   @media (max-width: 1630px) {
     left: 50%;
@@ -695,11 +695,12 @@ onMounted(() => {
 
 .hero__background {
   position: absolute;
-  top: -30%;
+  top: 10%;
   left: 0;
   right: 0;
   bottom: -60%;
   width: 100%;
+  height: 100%;
   z-index: -1;
   opacity: 0.4;
   transition: opacity 1s ease;
@@ -714,7 +715,7 @@ onMounted(() => {
       circle at right center,
         rgba(95, 157, 246, 0.1) 0%,
         rgba(139, 88, 244, 0.3) 25%,
-        rgba(249, 83, 116, 0.8) 50%,
+        rgba(249, 83, 116, 0.5) 50%,
         rgba(215, 85, 154, 0.3) 75%,
         rgba(252, 179, 83, 0.1) 100%
     );
@@ -732,7 +733,7 @@ onMounted(() => {
         circle at right center,
         rgba(95, 157, 246, 0.1) 0%,
         rgba(139, 88, 244, 0.3) 25%,
-        rgba(249, 83, 116, 0.8) 50%,
+        rgba(249, 83, 116, 0.5) 50%,
         rgba(215, 85, 154, 0.3) 75%,
         rgba(252, 179, 83, 0.1) 100%
       );
@@ -751,7 +752,7 @@ onMounted(() => {
         circle at right center,
         rgba(95, 157, 246, 0.1) 0%,
         rgba(139, 88, 244, 0.3) 25%,
-        rgba(249, 83, 116, 0.8) 50%,
+        rgba(249, 83, 116, 0.5) 50%,
         rgba(215, 85, 154, 0.3) 75%,
         rgba(252, 179, 83, 0.1) 100%
       );
@@ -770,7 +771,7 @@ onMounted(() => {
         circle at right center,
         rgba(95, 157, 246, 0.1) 0%,
         rgba(139, 88, 244, 0.3) 25%,
-        rgba(249, 83, 116, 0.8) 50%,
+        rgba(249, 83, 116, 0.5) 50%,
         rgba(215, 85, 154, 0.3) 75%,
         rgba(252, 179, 83, 0.1) 100%
       );
