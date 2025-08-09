@@ -13,21 +13,20 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: '主页', link: '/' },
-      { text: '下载', link: '/download' },
-      { text: '文档', link: '/docs' },
-      { text: '关于', link: '/about' },
-      { text: '捐助', link: '/donate' },
+      { text: '文档', link: '/src/docs/index' },
+      { text: '捐助', link: '/src/donate' },
+      { text: '关于', link: '/src/about' },
     ],
 
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
+    sidebar: [
+      {
+        text: '文档',
+        items: [
+          { text: '码镜介绍', link: '/src/docs/intro' },
+          { text: '安装', link: '/src/docs/install' }
+        ]
+      }
+    ],
 
     search: {
       provider: 'local',
@@ -51,9 +50,16 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/guang-zi-yu/codelume-site' }
     ],
+    outline: {
+      label: '本页目录',
+      level: [2, 3],
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
     footer: {
-      message: `<a href='https://beian.miit.gov.cn/' target='_blank'> 皖 ICP 备 2025083092 号</a>
-      <br \> 本网站基于 vitepress 快速搭建，参考了 vite 网站源码，感谢相关团队的开源`,
+      message: `<a href='https://beian.miit.gov.cn/' target='_blank'> 皖 ICP 备 2025083092 号</a>`,
       copyright:
         '版权所有 © 2025 至今 北京星界力科技有限公司'
     },

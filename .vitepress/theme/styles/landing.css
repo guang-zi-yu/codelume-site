@@ -7,6 +7,11 @@ html:has(.landing) {
   background-color: #101010;
 }
 
+.VPFooter {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
 .landing {
   overflow-x: hidden;
 
@@ -43,6 +48,8 @@ html:has(.landing) {
   .VPFooter {
     border-top: 1px solid #262626 !important;
     background: radial-gradient(circle at top center, #0f151a 30%, #000000 80%);
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .VPHome {
