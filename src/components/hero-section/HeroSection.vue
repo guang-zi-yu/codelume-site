@@ -8,7 +8,7 @@ import HeroDiagram from './HeroDiagram.vue'
       <h1>码镜 <br /> CodeLume</h1>
       <!-- Tagline -->
       <h3>
-        一款简约的 MacOS 平台动态壁纸软件
+        MacOS 平台动态壁纸软件
       </h3>
 
       <!-- CTA Buttons -->
@@ -25,6 +25,7 @@ import HeroDiagram from './HeroDiagram.vue'
 
 <style scoped>
 .hero {
+  /* overflow: hidden; */
   position: relative;
   z-index: 2;
   margin-bottom: 0;
