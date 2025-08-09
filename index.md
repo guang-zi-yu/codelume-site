@@ -1,25 +1,31 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+title: 码镜
+titleTemplate: MacOS 平台动态壁纸
+pageClass: landing dark
+
 layout: home
-
-hero:
-  name: "CodeLume"
-  text: "A minimalist dynamic wallpaper software for macOS platform"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+aside: false
+editLink: false
+markdownStyles: false
 ---
 
+<script setup>
+import { useData } from 'vitepress'
+import { onBeforeUnmount, onMounted, ref } from 'vue'
+
+import Hero from './src/components/hero-section/HeroSection.vue'
+
+const { isDark } = useData()
+
+onMounted(() => {
+  document.documentElement.classList.add('dark')
+})
+
+onBeforeUnmount(() => {
+  document.documentElement.classList.toggle('dark', isDark.value)
+})
+</script>
+
+<div class="VPHome">
+  <Hero/>
+</div>
