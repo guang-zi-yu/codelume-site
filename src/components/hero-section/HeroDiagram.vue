@@ -45,7 +45,7 @@ const inputFileSets = ref([
   ],
   [{ label: 'MP4' }, { label: 'MOV' }, { label: 'AVI', color: '#40b782' }], 
   [
-    { label: 'AVFoundation' },
+    { label: 'AVKit' },
     { label: 'SpriteKit' },
     { label: 'SceneKit', color: '#ff8d67' },
   ],
