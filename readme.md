@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="./public/CodeLumeChinese.svg" alt="码镜">
+  <br>
   <img src="./public/CodeLume.svg" alt="CodeLume">
 </p>
 
@@ -35,3 +36,5 @@ pnpm serve
 
 ## 版权信息
 - 版权所有 © 2025 至今 北京星界力科技有限公司
+
+本项目基于 MIT 协议开源，参开 Vite 官方网站源码快速搭建而来，感谢 Vite 团队的开源贡献。

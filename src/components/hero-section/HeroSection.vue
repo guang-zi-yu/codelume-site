@@ -8,19 +8,19 @@ import HeroDiagram from './HeroDiagram.vue'
       <h1>码镜 <br /> CodeLume</h1>
       <!-- Tagline -->
       <h3>
-        MacOS 平台动态壁纸软件
+        专为 MacOS 平台开发的动态壁纸软件
       </h3>
 
-      <p style="text-indent: 2em;">
+      <!-- <p style="text-indent: 2em;">
         码镜是一款专为 MacOS 平台打造的动态壁纸软件。
         它借助 MacOS 原生工具 XCode 开发，使用 Swift 语言编写，这使得它在 MacOS 平台运行稳定且性能表现出色。
-        借助 AVKit 框架，用户可以将自己喜爱的视频设置为动态壁纸或者屏幕保护程序, 
-        基于 SpriteKit 或 SceneKit 框架，实现实时渲染的动态壁纸，可以通过触控板与壁纸交互。 更多功能和用法请参考文档。
+        借助 AVKit 框架，用户可以将自己喜爱的视频设置为动态壁纸或者屏幕保护程序。
+        基于 SpriteKit 或 SceneKit 框架，实现实时渲染的 2D/3D 动态壁纸，可以通过触控板与壁纸交互。 更多功能和用法请参考文档。
       </p>
-      <br />
+      <br /> -->
 
       <!-- CTA Buttons -->
-      <div class="hero__actions">
+      <!-- <div class="hero__actions">
         <a href="/src/docs" class="btn btn--primary">文档</a>
         <a href="/HiddenBar.dmg" class="btn btn--primary" download>下载(v.1.0.0)</a>
         <a
@@ -31,7 +31,7 @@ import HeroDiagram from './HeroDiagram.vue'
           <img src="/github.svg" alt="GitHub logo" width="20" height="20" />
           GitHub
         </a>
-      </div>
+      </div> -->
     </div>
 
     <!-- Animated Diagram -->

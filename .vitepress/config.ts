@@ -59,7 +59,7 @@ export default defineConfig({
       next: '下一页'
     },
     footer: {
-      message: `<a href='https://beian.miit.gov.cn/' target='_blank'> 皖 ICP 备 2025083092 号</a>`,
+      message: `<a href='https://beian.miit.gov.cn/' target='_blank'> 皖 ICP 备 2025083092 号</a> <br\> 本网站参考 Vite 官网搭建，遵循 MIT 开源协议`,
       copyright:
         '版权所有 © 2025 至今 北京星界力科技有限公司'
     },
