@@ -61,7 +61,7 @@ export default defineConfig({
     footer: {
       message: `<a href='https://beian.miit.gov.cn/' target='_blank'> 皖 ICP 备 2025083092 号</a>`,
       copyright:
-        '版权所有 © 2025 至今 北京星界力科技有限公司'
+        'Copyright © 2025 CodeLume. All rights reserved.'
     },
   }
 })
