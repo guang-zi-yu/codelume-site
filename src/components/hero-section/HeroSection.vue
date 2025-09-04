@@ -22,7 +22,7 @@ import HeroDiagram from './HeroDiagram.vue'
       <!-- CTA Buttons -->
       <div class="hero__actions">
         <a href="/src/docs" class="btn btn--primary">文档</a>
-        <a href="/HiddenBar.dmg" class="btn btn--primary" download>下载(v.1.0.0)</a>
+        <a href="https://apps.apple.com/cn/app/%E7%A0%81%E9%95%9C/id6751061329?mt=12" class="btn btn--primary" download>下载(v.1.1.2)</a>
         <a
           href="https://github.com/guang-zi-yu/codelume-site"
           target="_blank"
